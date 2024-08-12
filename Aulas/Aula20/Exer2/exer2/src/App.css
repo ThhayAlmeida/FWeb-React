@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Container {
+  background: linear-gradient(to right, aquamarine, blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 30vw;
+  height: 60vh;
+}
+
+.ContainerMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: cornsilk;
+}
+
+.usuario {
+  margin-top: 35px;
+  background: transparent linear-gradient(to right, aquamarine, blue);
+  border-radius: 10px;
+  width: 20vw;
+  height: 20vh;
+  float: left;
+  padding: 15px;
+  box-shadow: 0px 3px 0px;
+}
+
+.login {
+  font-size: larger;
+  margin-top: 5px;
+}
+
+h2 {
+  float: left;
+}
