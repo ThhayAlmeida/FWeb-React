@@ -2,6 +2,8 @@ import { useState } from "react";
 
 function Contador() {
     const [contador, setContador] = useState(1);
+
+
     function adicionarCont() {
         setContador(contador + 1)
     }

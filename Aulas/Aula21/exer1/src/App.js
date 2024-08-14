@@ -1,12 +1,10 @@
 import './App.css';
-import Contador from './componentes/contador';
-import Counter from './componentes/counter';
+import Calculadora from './componentes/compCalculadora';
 
 function App() {
   return (
     <div className="App">
-      <Contador />
-      <Counter />
+      <Calculadora />
     </div>
   );
 }
